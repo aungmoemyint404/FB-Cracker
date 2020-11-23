@@ -1,0 +1,55 @@
+# -*- coding: utf-8 -*-
+import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib
+from multiprocessing.pool import ThreadPool
+
+
+
+
+
+
+import os,sys,time
+def maung(n):
+    for m in n + '\n':
+        sys.stdout.write(m)
+        sys.stdout.flush()
+        time.sleep(0.001)
+
+banner = """\033[31;1m
+
+                    :0k;     .x0d
+                    'MMMM0;.'xMMMMo
+                    kMMMMMMMMMMMMMN
+                   .WMMMMMMMMMMMMMM:
+                   cMMMMMMMMMMMMMMMO
+                   0MMMMMMMMMMMMMMMW.
+                  .MMMMMMMMMMMMMMMMMc
+                   ;codkkOOOOOOkxdl:.
+                 .                   .
+         .,cdkKNMMMXOdc;'.....',:okKWMMWXOxl;..
+    .ckXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNOo'
+    ,0WMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMKo
+       .,:ldxkO0KXNNWMMMMMMMMMMMMMWWNXXK0Oxdl:,.
+          ,ddoc.  ,..................;  :lodd'
+       .lXMMMMMN. KMMMMMMM0odKMMMMMMMk  WMMMMMKl.
+     ,kWMMMMMMMMX..o0XXKx'    ;kKXKOl  ,MMMMMMMMWk'
+    lk0KXWMMMMMMMN'                  .dWMMMMMMWXKOkc
+           .,cd0WMWl               'kMMXko:'.
+              .dNMMMK,           ;0MMMMKc
+            ;OMMMMMMMMO'       .KMMMMMMMMWx.
+            .':oONMMMMMM0:    oWMMMMMMKxl;.
+                  .ckNMMMMW,.0MMMMNd,.
+                      .cOWN.KMMWx,
+                          .cMXc
+                           Ol
+                           '
+\033[0m"""
+maung(banner)
+def aung(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(random.random() * 0.4)
+print ('\033[31;1m               ╔════════════════════════╗')
+aung('\033[31;1m               ║\033[39;1m \033[41mWait Password Cracking\033[0m\033[31;1m ║')
+print ('\033[31;1m               ╚════════════════════════╝')
+os.system('play-audio Hacker_2020-11-23_11-34-11.mp3')
